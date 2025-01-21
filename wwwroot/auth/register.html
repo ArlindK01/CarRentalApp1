@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrera dig</title>
+</head>
+<body>
+    <h2>Registrera dig</h2>
+    <form method="post" action="/Auth/Register">
+        <div>
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" placeholder="E-postadress" required />
+        </div>
+        <div>
+            <label for="password">Lösenord:</label>
+            <input type="password" id="password" name="password" placeholder="Lösenord" required />
+        </div>
+        <button type="submit">Registrera</button>
+    </form>
+    <a href="/auth/login.html">Har du redan ett konto? Logga in här</a>
+</body>
+</html>

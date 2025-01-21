@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logga in</title>
+</head>
+<body>
+    <h2>Logga in</h2>
+    <form method="post" action="/Auth/Login">
+        <div>
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" placeholder="E-postadress" required />
+        </div>
+        <div>
+            <label for="password">Lösenord:</label>
+            <input type="password" id="password" name="password" placeholder="Lösenord" required />
+        </div>
+        <button type="submit">Logga in</button>
+    </form>
+    <a href="/auth/register.html">Registrera dig</a>
+</body>
+</html>
